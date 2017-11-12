@@ -78,8 +78,7 @@ geth --datadir=./data init C:\Training\Blockchain-Course-Geth\genesis.json
 
 Set the rpc information, specifically the cors domain, the api protocols, and the ports:
 
-geth --datadir=./data --rpc --rpccorsdomain "http://localhost:8000" --rpcapi 
-"db,eth,net,web3,personal,miner"  --rpcaddr "127.0.0.1" --rpcport "8545
+geth --datadir=./data --rpc --rpccorsdomain "http://localhost:8000" --rpcapi "db,eth,net,web3,personal,miner"  --rpcaddr "127.0.0.1" --rpcport "8545"
 
 Attach to the network via command line
 
@@ -88,3 +87,27 @@ geth attach http://127.0.0.1:8545
 Run this comand once attached to the network:
 
 open -a /Applications/Mist.app —args —node-datadir=./data (Mist Waller)
+
+
+=============================================
+
+INSTALLING SOLIDITY AND TRUFFLE
+
+OFFICIAL DOCS-
+	Solidity: http://solidity.readthedocs.io/en/develop/installing-solidity.html
+	Truffle: http://truffleframework.com/docs/getting_started/installation
+
+STEP BY STEP SOLIDITY- 
+
+npm install -g solc
+
+MAC OS- sudo xcodebuild -license accept
+
+STEP BY STEP TRUFFLE-
+1. npm install -g truffle
+1A_for windows, if you face a naming conflict, please use - http://truffleframework.com/docs/advanced/configuration#resolving-naming-conflicts-on-windows
+
+To test truffle, create a new folder and try:
+truffle init 
+
+
