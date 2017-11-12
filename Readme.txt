@@ -73,8 +73,7 @@ MAC:
 
 Create a data folder and initialize the genesis data via this command: 
 
-geth --datadir=./data init C:\Training\Blockchain-Course-Geth\genesis.json
-
+geth --datadir=./data init genesis.json
 
 Set the rpc information, specifically the cors domain, the api protocols, and the ports:
 
