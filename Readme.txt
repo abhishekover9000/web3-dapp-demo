@@ -5,6 +5,8 @@ To RUN the project use below commands
 1. Install NPM
 npm install
 
+npm install -g gulp
+
 2. Start the server
 gulp serve
 
