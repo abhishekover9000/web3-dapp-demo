@@ -6,7 +6,7 @@ To RUN the project use below commands
 npm install
 
 2. Start the server
-gulp serv
+gulp serve
 
 
 Potential Errors:
