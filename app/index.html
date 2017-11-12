@@ -1,0 +1,235 @@
+<html lang="">
+    
+    <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Blockchain Course - Development with Web3 Section</title>
+    
+      <!--link rel="apple-touch-icon" href="apple-touch-icon.png" -->
+      <!-- Place favicon.ico in the root directory -->
+      <!--link rel="icon" type="image/png" href="http://dappchain.com/favicon-32x32.png" sizes="32x32" / -->
+      <!-- build:css styles/vendor.css -->
+      <!-- bower:css -->
+      <!-- endbower -->
+      <!-- endbuild -->
+    
+      <!-- build:css styles/main.css -->
+      <link rel="stylesheet" href="styles/main.css">
+      <!-- endbuild -->
+    
+    </head>
+    
+    <body>
+      <!--[if lt IE 10]>
+          <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    
+    
+      <!-- top -->
+      <!--div class="item top">
+        <!--a href="http://dappchain.com" >
+              <img class="logo">
+        </a -->
+      <!--/div-->
+      <!-- About -->
+      <!--div class="item about">
+        <img class="workbench">
+        <p class="text">
+          Web3 Workbench Application developed in section "Developing DAPPs with Web3"
+          <ul>
+          <li>To connect with geth or TestRPC provide URL and hit connect</li>
+          <li>To connect with MetaMask - enable MetaMask and reload</li>
+          </ul>
+        </p>
+      </div>
+    
+      <!-- Setup & Version -->
+      <div class="hero-unit">
+        <h1>Connect</h1>
+    
+        <!-- setup  -->
+        <div class="sidekick">
+          <h1>Setup</h1>
+            
+
+        </div>
+        <!-- version -->
+        <div class="sidekick">
+          <h1>Version</h1>
+
+
+        </div>
+      </div>
+    
+      <!-- Accounts -->
+      <div class="hero-unit">
+        <h1>Accounts</h1>
+        <!-- accounts list -->
+        <div class="sidekick">
+          <h1>Accounts</h1>
+        </div>
+        <!-- account balances -->
+        <div class="sidekick">
+          <h1>Balances</h1>
+        </div>
+      </div>
+    
+      <!-- Lock / Unlock Account -->
+      <div class="hero-unit">
+        <h1>UnLock &amp; Lock Accounts</h1>
+        <!-- unlock the account -->
+        <div class="sidekick">
+          <h1>Unlock Account</h1>
+        </div>
+        <div class="sidekick">
+          <h1>Un/Lock Result</h1>
+        </div>
+      </div>
+    
+      <!-- Send Transaction -->
+      <div class="hero-unit">
+        <h1>Send Ethers</h1>
+        <div class="sidekick">
+          <h1>Transaction Object</h1>
+
+    
+        </div>
+        <!-- transaction object json -->
+        <div class="sidekick">
+          <h1>JSON</h1>
+
+        </div>
+    
+        <!-- send  -->
+        <div class="sidekick">
+          <h1>Send</h1>
+        </div>
+        <!-- send transaction result -->
+        <div class="sidekick">
+          <h1>Result</h1>
+          <p class="notready" id="send_transaction_error_or_result">...</p>
+          <a href="" id="etherscan_io_tx_link" target="_blank">...</a>
+        </div>
+      </div>
+    
+      <!-- Compile & Deploy Contracts -->
+      <div class="hero-unit">
+        <h1>Compile &amp; Deploy Contracts</h1>
+        <!--contract compilation -->
+        <div class="sidekick">
+          <h1>Compile</h1>
+
+
+        </div>
+        <!-- compilation result -->
+        <div class="sidekick">
+
+        </div>
+        <!-- deploy the contract -->
+        <div class="sidekick">
+          <h1>Deploy</h1>
+          
+
+
+        </div>
+        <!-- deploy result -->
+        <div class="sidekick">
+          <h1>Result</h1>
+        
+
+        </div>
+      </div>
+    
+      <!-- Execute Contract Function -->
+      <div class="hero-unit">
+        <h1>Contract Invocations</h1>
+        <div class="sidekick">
+          <h1>Execute</h1>
+        
+
+        </div>
+        <div class="sidekick">
+         
+        </div>
+      </div>
+    
+      <!-- Filter - watch, stopWatching,get -->
+      <div class="hero-unit">
+        <h1>Events &amp; Logs : Filter, Watch, Get</h1>
+        <!-- Filter options fields -->
+        <div class="sidekick">
+          <h1>Filter</h1>
+         
+
+        </div>
+        <!-- Options object -->
+        <div class="sidekick">
+          <h1>Options</h1>
+
+        </div>
+        <!-- Add a watch -->
+    
+        <div class="sidekick">
+          <h1>Watch</h1>
+
+        </div>
+        <div class="sidekick">
+          <h1>Events (5 Latest)</h1>
+         
+
+        </div>
+    
+        <!-- filter.get -->
+        <div class="sidekick">
+          <h1>Get Logs</h1>
+         
+        </div>
+        <div class="sidekick">
+          <h1>Logs</h1>
+          <span>Applied</span>
+          </div>
+    
+      </div>
+    
+      <!-- contract.myEvent & allEvent -->
+      <div class="hero-unit">
+        <h1>Contract Events</h1>
+        <!-- Watch events from specific contract instance -->
+        <div class="sidekick">
+          <h1>Watch Instance Events</h1>
+
+
+        </div>
+        <div class="sidekick">
+          <h1>Events/Logs (5 Latest)</h1>
+      
+        </div>
+        <!-- contract event.get -->
+        <div class="sidekick">
+          <h1>Contract Instance Logs</h1>
+ 
+        </div>
+        <div class="sidekick">
+          <h1>Logs</h1>
+
+         
+        </div>
+      </div>
+    
+      <!-- build:js scripts/vendor.js -->
+      <!-- bower:js -->
+      <script src="/bower_components/bignumber.js/bignumber.js"></script>
+      <script src="/bower_components/crypto-js/index.js"></script>
+      <script src="/bower_components/web3/dist/web3.js"></script>
+      <script src="/bower_components/web3/dist/web3.min.js"></script>
+      <!-- endbower -->
+      <!-- endbuild -->
+    
+      <!-- build:js scripts/main.js -->
+      <script src="scripts/utils.js"></script>
+      <script src="scripts/main.js"></script>
+      <!-- endbuild -->
+    </body>
+    
+    </html>
